@@ -153,6 +153,7 @@ radius = 36.2215
 script = ExtResource("1_6bq31")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 10
 position = Vector2(0, -66)
 sprite_frames = SubResource("SpriteFrames_hbgst")
 animation = &"falling"

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const scaling_factor = 2
+const scaling_factor = 3
 
 const SPEED = 300.0 * scaling_factor
 const JUMP_VELOCITY = -400.0 * scaling_factor

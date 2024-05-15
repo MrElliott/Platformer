@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://cke4m4m8eqwky"]
+
+[ext_resource type="Texture2D" uid="uid://b2edbcah7aalh" path="res://assets/Simple UI Pack/Sprites/UI/Status/portrait_character.png" id="1_d0elt"]
+[ext_resource type="Texture2D" uid="uid://cm6es872v576p" path="res://assets/Simple UI Pack/Sprites/UI/Status/heart_empty.png" id="2_q8icp"]
+[ext_resource type="Texture2D" uid="uid://37cxxt255tsi" path="res://assets/Simple UI Pack/Sprites/UI/Status/heart_fill.png" id="3_b74ck"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 27.0
+offset_top = 27.0
+offset_right = 157.0
+offset_bottom = 152.0
+scale = Vector2(0.8, 0.8)
+size_flags_horizontal = 2
+size_flags_vertical = 0
+texture = ExtResource("1_d0elt")
+
+[node name="Heart_3" type="Sprite2D" parent="."]
+position = Vector2(182, 83)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2_q8icp")
+
+[node name="Heart_2" type="Sprite2D" parent="."]
+position = Vector2(276, 83)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("3_b74ck")
+
+[node name="Heart_1" type="Sprite2D" parent="."]
+position = Vector2(373, 83)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("3_b74ck")
